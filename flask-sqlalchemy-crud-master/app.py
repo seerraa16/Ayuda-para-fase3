@@ -2,7 +2,6 @@ from flask import Flask
 from routes.contacts import contacts
 from flask_sqlalchemy import SQLAlchemy
 from config import DATABASE_CONNECTION_URI
-
 app = Flask(__name__)
 
 # settings
